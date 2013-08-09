@@ -2,9 +2,15 @@
 
 This project was tested with summernote-rails gem in Rails 4.0 project.
 
-Summernote-rails url :
+I greatly appreciate Summernote Development Team.
 
-http://github.com/rorlab/summernote-rails
+Of course, you can use summernote editor without summernote-rails gem, but it is a hassle.
+
+With summernote-rails gem, you just add this in gemfile and bundle install as usual.
+
+Afterwards, you can easily understand how to use summernote editor in Rails project, with this test project.
+
+Summernote-rails URL: http://github.com/rorlab/summernote-rails
 
 Thank you.
 
