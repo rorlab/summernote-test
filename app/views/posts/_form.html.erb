@@ -1,0 +1,16 @@
+<%= simple_form_for(@post) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <div class="row-fluid">
+      <div class="span12">
+        <%= f.input :title, input_html:{class:'span12'} %>
+      </div>
+    </div>
+    <%= f.input :content, class:'summernote' %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
