@@ -9,10 +9,10 @@ GIT
 
 GIT
   remote: git://github.com/rorlab/summernote-rails.git
-  revision: e73f2b8b77d332e0b948d584c95980d2db7a5299
+  revision: 493f33ea93b1ae5ae59848d565618bae9ddf240a
   specs:
-    summernote-rails (0.2.0)
-      railties (~> 4.0)
+    summernote-rails (0.2.1.1)
+      railties (>= 3.1)
 
 GEM
   remote: https://rubygems.org/

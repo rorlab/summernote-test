@@ -5,7 +5,7 @@
 $ ->
 
   # to set summernote object
-  summer_note = $('#post_content') or $('#test_editor')
+  summer_note = $('#post_content')
 
   # to call summernote editor
   summer_note.summernote
