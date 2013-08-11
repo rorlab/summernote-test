@@ -47,4 +47,4 @@ end
 gem 'simple_form', github: 'plataformatec/simple_form', tag: 'v3.0.0.beta1'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
-gem "summernote-rails", github: 'rorlab/summernote-rails'
+gem "summernote-rails"

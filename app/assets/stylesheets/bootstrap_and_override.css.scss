@@ -1,3 +1,8 @@
+// When using font-awesome-rails with bootstrap-sass, both FontAwesome & Glyphicon icons show up. So you should add the following to hide Glyphicon icons of Bootstrap.
+$iconSpritePath: '';
+$iconWhiteSpritePath: '';
+
 @import 'bootstrap';
 body {padding-top:3em;}
 @import 'bootstrap-responsive';
+
