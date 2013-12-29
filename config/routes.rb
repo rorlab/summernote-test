@@ -1,8 +1,6 @@
 SummernoteTest::Application.routes.draw do
   root 'welcome#index'
-  get "welcome/index"
   resources :posts
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -43,7 +41,7 @@ SummernoteTest::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

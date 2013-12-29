@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.1'
+gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -46,5 +46,5 @@ end
 
 gem 'simple_form'
 gem 'bootstrap-sass', '~> 3.0.2.0'
-gem 'font-awesome-rails'
-gem "summernote-rails"
+gem 'font-awesome-sass'
+gem "summernote-rails", github: 'rorlab/summernote-rails'

@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-SummernoteTest::Application.config.secret_key_base = '4c34d84bf394838302632c735e8f75b514b7a6404056077ffa2e6e119cb03dd6006b610fa6dec69c8b91acf9ccb9c94c7e5d1fda371d72fef4542838e0c7767d'
+SummernoteTest::Application.config.secret_key_base = 'fc519dba1de3d44930bbe521e2924dd5b46cf0a302ce58647a1ac38bc1f0d521c8e7f0759e39df0cea9e49c41ccb3774af18cbeff665436b3a3168d9dce22975'

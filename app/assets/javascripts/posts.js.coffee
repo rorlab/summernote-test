@@ -10,16 +10,17 @@ $ ->
   # to call summernote editor
   summer_note.summernote
     # to set options
-    height:300  
+    height:300
+    lang: 'ko-KR'
     # toolbar: [
                 # ['insert', ['picture', 'link']], // no insert buttons
-                # ["table", ["table"]], 
-                # ["style", ["style"]], 
-                # ["fontsize", ["fontsize"]], 
-                # ["color", ["color"]], 
-                # ["style", ["bold", "italic", "underline", "clear"]], 
-                # ["para", ["ul", "ol", "paragraph"]], 
-                # ["height", ["height"]], 
+                # ["table", ["table"]],
+                # ["style", ["style"]],
+                # ["fontsize", ["fontsize"]],
+                # ["color", ["color"]],
+                # ["style", ["bold", "italic", "underline", "clear"]],
+                # ["para", ["ul", "ol", "paragraph"]],
+                # ["height", ["height"]],
                 # ["help", ["help"]]
              # ]
 
@@ -29,6 +30,6 @@ $ ->
 
   # to get code for summernote
   summer_note.closest('form').submit ->
-    # alert $('#post_content').code()[0]
+    # alert $('#post_content').code()
     summer_note.val summer_note.code()
     true
